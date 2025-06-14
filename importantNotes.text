@@ -39,3 +39,5 @@
     {:else}
     <!-- Optional: rendered if all above conditions are false -->
     {/if}
+
+## Snippet : Reusable code

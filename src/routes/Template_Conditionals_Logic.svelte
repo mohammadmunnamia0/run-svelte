@@ -10,11 +10,7 @@
 <main>
     <p>Step:{formState.step}</p>
 
-    {#if formState.error}
-
-      <p>{formState.error}</p>
-
-    {/if}
+   
 
     {#if formState.step === 0}
 
@@ -48,6 +44,12 @@
                 formState.error = 'Your Field is Empty.'
             }
             }}>Next</button>
+    {/if}
+
+     {#if formState.error}
+
+      <p>{formState.error}</p>
+
     {/if}
 
     
