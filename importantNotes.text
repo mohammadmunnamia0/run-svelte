@@ -29,3 +29,13 @@
 ## State_Events.svelte
 
     * Learn how to change the state or event
+
+## Template_Conditionals_Logic
+
+    {#if condition}
+    <!-- This content is rendered if condition is true -->
+    {:else if anotherCondition}
+    <!-- Optional: rendered if previous condition was false and this one is true -->
+    {:else}
+    <!-- Optional: rendered if all above conditions are false -->
+    {/if}
