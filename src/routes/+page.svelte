@@ -1,6 +1,7 @@
 <script>
 	import Derive from "./Derive.svelte";
 	import EachLoop from "./EachLoop.svelte";
+	import EffectLifeCycle from "./Effect_LifeCycle.svelte";
 	import Header from "./Header.svelte";
 	import StateEvents from "./State_Events.svelte";
 	import TemplateConditionalsLogic from "./Template_Conditionals_Logic.svelte";
@@ -53,4 +54,10 @@ Example : <input type='text' placeholder="TypeAnything" bind:value={name}>
 
 <section>
     <EachLoop/>
+</section>
+
+<hr>
+
+<section>
+    <EffectLifeCycle/>
 </section>
