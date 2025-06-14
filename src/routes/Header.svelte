@@ -1,4 +1,5 @@
 <script lang="ts">
+// let {name} : {name:string} = $props();
 let {name} : {name:string} = $props();
 </script>
 

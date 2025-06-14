@@ -1,24 +1,31 @@
 * Each components represent as a single file.
 
+## Header.svelte
 
-* pass prop:
- <script>
- let {variable_name} : {variable_name : variable_Type} = $props();
- </script>
-
- so now, where we have just import the Header their we will define the value of the variable on the Header component, and it will show on the target place. Check Header.svelte and page.svelte.
-
-* without pass , by declaring the variables:
+    * pass prop:
     <script>
-	import Header from "./Header.svelte";
-
-    let name = 'Su'
+    let {variable_name} : {variable_name : variable_Type} = $props();
     </script>
 
-    <!-- Initialize the variable and use it in side the own file without passing props -->
-    <Header name={name}/>
-    <Header {name}/> 
+    so now, where we have just import the Header their we will define the value of the variable on the Header component, and it will show on the target place. Check Header.svelte and page.svelte.
 
-    this both will same `name={name} / {name}` , show the same result.
+    * without pass , by declaring the variables:
+        <script>
+        import Header from "./Header.svelte";
 
-* bind values -> it will help to changes the values across everywhere by Initialize state 
+        let name = 'Su'
+        </script>
+
+        <!-- Initialize the variable and use it in side the own file without passing props -->
+        <Header name={name}/>
+        <Header {name}/> 
+
+        this both will same `name={name} / {name}` , show the same result.
+
+    * bind values -> it will help to changes the values across everywhere by Initialize state 
+
+
+
+## State_Events.svelte
+
+    * Learn how to change the state or event
