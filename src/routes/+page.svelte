@@ -5,7 +5,7 @@
 	import Header from "./Header.svelte";
 	import StateEvents from "./State_Events.svelte";
 	import TemplateConditionalsLogic from "./Template_Conditionals_Logic.svelte";
-
+    import OnMountDestroy from "./OnMountDestroy.svelte"
 
     // let name = 'Su';
     let name = $state('su');
@@ -60,4 +60,10 @@ Example : <input type='text' placeholder="TypeAnything" bind:value={name}>
 
 <section>
     <EffectLifeCycle/>
+</section>
+
+<hr>
+
+<section>
+<OnMountDestroy/>
 </section>
