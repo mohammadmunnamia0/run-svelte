@@ -9,6 +9,9 @@
  $effect(()=>{
     console.log('The effect has run .Current Count is :', count)
  })
+
+ $inspect(count) 
+// $inspect will update when the count update , its basically working as a inspect on the browser
 </script>
 
 <main>
