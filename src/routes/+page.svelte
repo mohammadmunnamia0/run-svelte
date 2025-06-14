@@ -1,8 +1,10 @@
 <script>
 	import Derive from "./Derive.svelte";
+	import EachLoop from "./EachLoop.svelte";
 	import Header from "./Header.svelte";
 	import StateEvents from "./State_Events.svelte";
 	import TemplateConditionalsLogic from "./Template_Conditionals_Logic.svelte";
+
 
     // let name = 'Su';
     let name = $state('su');
@@ -47,4 +49,8 @@ Example : <input type='text' placeholder="TypeAnything" bind:value={name}>
 <section>
     <TemplateConditionalsLogic/>
 </section>
+<hr>
 
+<section>
+    <EachLoop/>
+</section>
